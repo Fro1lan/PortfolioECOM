@@ -7,7 +7,8 @@
 
 body {
     height: 100vh;
-    background-color: #03c6fc;
+    background-image: url("background.jpg");
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +35,8 @@ section .card .image img{
     position: absolute;
     height: 40%;
     width: 100%;
-    background: skyblue;
+    background-image: url("background2.png");
+    background-size: cover;
     border-radius: 20px 20px 0 0;
 }
 .card .card-content{
